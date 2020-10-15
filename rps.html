@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><title>Rock Paper Scissors</title>
+<link href = "rps.css" type="text/css" rel = "stylesheet"> 
+<script src="rps.js"></script>
+</head>
+<div class="main">
+    <h1>Play Rock, Paper, Scissors With a Robot!</h1>
+  
+   <div class="player">
+      <label>You</label>
+      <select id="player1">
+        <option value="">Choose rock, paper, or scissors.</option>
+        <option value="rock">Rock</option>
+        <option value="paper">Paper</option>
+        <option value="scissors">Scissors</option>
+      </select>
+      
+      <div class="robot"><img src="https://i.imgur.com/dvJ8Fmy.png?1" alt="the robot" title="Image by David Rock Designs pixabay.com/users/davidrockdesign-2595351" />
+  
+        <button id="player2" onclick="robot()">Click to see what the robot chose</button></div>
+  
+      <button id="who-won" onclick="rockPaperScissors()">Who won?</button>
+      <button id="play-again" onclick="reset()">Play Again</button>
+      
+     
+      </div>
+  </div>
+  </html>
