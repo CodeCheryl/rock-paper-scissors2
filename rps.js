@@ -1,7 +1,5 @@
 function robot() {
-    let player1 = document.getElementById("player1").value;
     let arr = ["rock", "paper", "scissors"];
-  
     player2.innerHTML = arr[Math.floor(Math.random() * arr.length)];
     if (player1 === "") {
       alert("You must choose first");
@@ -9,7 +7,7 @@ function robot() {
     }
   }
   
-  function rockPaperScissors(rock, paper, scissors) {
+  function rockPaperScissors() {
     let player1 = document.getElementById("player1").value;
     let player2 = document.getElementById("player2").innerHTML;
   
