@@ -12,6 +12,7 @@ h1 {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    
   }
   
   .player {
@@ -63,6 +64,7 @@ h1 {
     max-width: 8em;
     margin-left: 40%;
   }
+
 
   
   
