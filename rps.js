@@ -1,5 +1,6 @@
 function robot() {
     let arr = ["rock", "paper", "scissors"];
+    let player1 = document.getElementById("player1").value;
     player2.innerHTML = arr[Math.floor(Math.random() * arr.length)];
     if (player1 === "") {
       alert("You must choose first");
