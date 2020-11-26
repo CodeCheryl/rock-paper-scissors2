@@ -1,12 +1,13 @@
 h1 {
     text-align: center;
+    color: #290029
   }
   
   .main {
     width: 90vw;
-    height: 100vh;
+    height: 95vh;
     margin: 0 auto;
-    background-color: #aaffff;
+    background-color: #ff8bff;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
